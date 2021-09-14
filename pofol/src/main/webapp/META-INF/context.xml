@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/pofol"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="inwoo"
+		password="inwoo"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:XE"
+		maxActive="500"
+	/>	
+</Context>
